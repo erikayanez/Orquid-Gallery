@@ -19,7 +19,7 @@ img {
 /* Classes applied to specify the picture's position */
 .pic1 {
   position: relative;
-  left: 8rem;
+  left: 10rem;
   top: 5rem;
 }
 .pic2 {
