@@ -1,8 +1,8 @@
 /* Rules for the box that will contain the pictures */
 .box {
 
-  width: 100rem;
-  height: 100rem;
+  width: 70rem;
+  height: 58rem;
   border: 3px solid black;
   margin: 20px auto;
 }
@@ -19,23 +19,24 @@ img {
 /* Classes applied to specify the picture's position */
 .pic1 {
   position: relative;
-  left: 5rem;
+  left: 8rem;
   top: 5rem;
 }
 .pic2 {
   position: relative;
-  top: 10rem;
+  top: 15rem;
+  left: 5rem;
 }
 .pic3 {
   position: relative;
-  top: 15rem;
-  right: 5rem;
+  top: 25rem;
+  
 
 }
 .pic4 {
   position: relative;
-  top: 20rem;
-  right: 10rem;
+  top: 35rem;
+  right: 5rem;
 }
 /*  Hover effect for the pictures, new position while doing the hover and setting none grayscale effect*/
 img:hover {
