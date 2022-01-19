@@ -1,6 +1,10 @@
+body {
 
+}
 img {
-  display: inline;
+  margin: 30px;
+  padding: 100px;
+  display: inline-block;
     width: 10rem;
     height: 10rem;
     border: 2px black solid;
@@ -19,27 +23,27 @@ img {
   z-index: 1;
   opacity: 1;
   filter: none;
-  position: relative;
-  top: 20px;
-  left: 50px;
+  position: absolute;
+  top: 300px;
+  left: 500px;
 }
 .pic2:hover {
   transform: rotate(0deg);
   z-index: 1;
   opacity: 1;
   filter: none;
-  position: relative;
-  top: 20px;
-  left: 50px;
+  position: absolute;
+  top: 400px;
+  left: 500px;
 }
 .pic3:hover {
   transform: rotate(0deg);
   z-index: 1;
   opacity: 1;
   filter: none;
-  position: relative;
-  top: 20px;
-  left: 50px;
+  position: absolute;
+  top: 500px;
+  left: 500px;
 }
 .pic4:hover {
   transform: rotate(0deg);
@@ -47,6 +51,6 @@ img {
   opacity: 1;
   filter: none;
   position: relative;
-  top: 20px;
-  left: 50px;
+  top: 20%;
+left: 10%;
 }
