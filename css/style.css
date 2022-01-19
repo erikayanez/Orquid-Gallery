@@ -45,26 +45,3 @@ img:hover {
   filter: grayscale(0);
 } 
 
-/* 
-.pic1:hover {
-
-
-}
-.pic2:hover {
-  transform: rotate(0deg);
-  z-index: 1;
-  opacity: 1;
-  filter: none;
-}
-.pic3:hover {
-  transform: rotate(0deg);
-  z-index: 1;
-  opacity: 1;
-  filter: none;
-}
-.pic4:hover {
-  transform: rotate(0deg);
-  z-index: 1;
-  opacity: 1;
-  filter: none;
-}  */
