@@ -1,56 +1,67 @@
-body {
+.box {
 
+  width: 100rem;
+  height: 100rem;
+  border: 3px solid black;
+  margin: 20px auto;
 }
 img {
-  margin: 30px;
-  padding: 100px;
-  display: inline-block;
-    width: 10rem;
-    height: 10rem;
+  position: absolute;
+    width: 15rem;
+    height: 15rem;
     border: 2px black solid;
     padding: 10px 10px 20px 10px;
-    position: relative;
-    top: 20%;
-  left: 10%;
-  z-index: -1;
   opacity: 0.5;
-  filter: grayscale(100);
+  filter: grayscale();
   transform: rotate(10deg);
 } 
-
-.pic1:hover {
+.pic1 {
+  position: relative;
+  top: 25rem;
+  left: 10rem;
+}
+.pic2 {
+  position: relative;
+  top: 20rem;
+  left: 15rem;
+}
+.pic3 {
+  position: relative;
+  top: 15rem;
+  left: 20rem;
+}
+.pic4 {
+  position: relative;
+  top: 10rem;
+  left: 25rem;
+}
+img:hover {
   transform: rotate(0deg);
   z-index: 1;
   opacity: 1;
-  filter: none;
-  position: absolute;
-  top: 300px;
-  left: 500px;
+  filter: grayscale(0);
+} 
+
+/* 
+.pic1:hover {
+
+
 }
 .pic2:hover {
   transform: rotate(0deg);
   z-index: 1;
   opacity: 1;
   filter: none;
-  position: absolute;
-  top: 400px;
-  left: 500px;
 }
 .pic3:hover {
   transform: rotate(0deg);
   z-index: 1;
   opacity: 1;
   filter: none;
-  position: absolute;
-  top: 500px;
-  left: 500px;
 }
 .pic4:hover {
   transform: rotate(0deg);
   z-index: 1;
   opacity: 1;
   filter: none;
-  position: relative;
-  top: 20%;
-left: 10%;
-}
+}  */
