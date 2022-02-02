@@ -1,6 +1,6 @@
 # Orquid Gallery
 
-![gallery-wall](./images/gallery-wall.png)
+![gallery-wall](.././images/gallery-wall.png)
 
 > In the Live Server you will see today's project.
 > I created a Webpage using Html and Css.
